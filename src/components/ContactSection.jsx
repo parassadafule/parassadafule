@@ -12,6 +12,9 @@ const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
   const [drawnElements, setDrawnElements] = useState([]);
+  const [showRating, setShowRating] = useState(false);
+  const [rating, setRating] = useState(0);
+  const [hoverRating, setHoverRating] = useState(0);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -55,7 +58,7 @@ const ContactSection = () => {
         {
           from_name: formData.name,
           from_email: formData.email,
-          subject: `[Portfolio Contact] ${formData.subject}`, // Added prefix for Gmail filtering
+          subject: `[Portfolio Contact] ${formData.subject}`,
           message: formData.message,
           to_name: 'Paras', 
         },
@@ -99,7 +102,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-white relative overflow-hidden">
+    <section id="contact" className="pt-20 bg-white relative overflow-hidden">
       
       <div className="absolute inset-0">
         <div className="w-full h-full" style={{
@@ -365,7 +368,7 @@ const ContactSection = () => {
       </div>
 
       {/* Footer */}
-      <footer className={`mt-16 sm:mt-20 py-6 sm:py-8 border-t-2 border-dashed border-gray-300 transition-all duration-1000 delay-1600 ${
+      <footer className={`mt-16 sm:mt-20 py-6 sm:py-10 border-t-2 border-dashed border-gray-300 transition-all duration-1000 delay-1600 ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-8'
@@ -391,6 +394,76 @@ const ContactSection = () => {
           </div>
         </div>
       </footer>
+
+      <div className="relative bottom-3 right-5 text-right text-sm underline cursor-pointer font-mono text-gray-400 opacity-75 hover:opacity-100 transition-opacity duration-300 z-40"
+           onClick={() => setShowRating(true)}>
+        I'm Feeling Lucky!
+      </div>
+
+      {/* Rating Modal */}
+      {showRating && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" onClick={() => setShowRating(false)}>
+          <div className="bg-white p-8 rounded-lg shadow-2xl -w-lg mx-5 transform transition-all duration-300 scale-100 border-2 border-dashed border-gray-400"
+               onClick={(e) => e.stopPropagation()}>
+            <div className="text-center">
+              <h3 className="text-xl font-mono font-bold text-gray-700 mb-6">
+                Rate My Portfolio
+              </h3>
+              
+              <div className="flex justify-center space-x-7 mb-6">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <button
+                    key={star}
+                    className="text-4xl space-x-2 transition-all duration-200 "
+                    onMouseEnter={() => setHoverRating(star)}
+                    onMouseLeave={() => setHoverRating(0)}
+                    onClick={() => setRating(star)}
+                  >
+                    {(hoverRating || rating) >= star ? '⭐' : '☆'}
+                  </button>
+                ))}
+              </div>
+              
+              {rating > 0 && (
+                <div className="mb-6">
+                  <p className="text-sm font-mono text-gray-600">
+                    You rated: {rating} star{rating !== 1 ? 's' : ''}
+                  </p>
+                  <p className="text-xs font-mono text-gray-500 mt-2">
+                    {rating === 5 && "Wow! Thank you so much! 🎉"}
+                    {rating === 4 && "Thanks! Glad you liked it! 😊"}
+                    {rating === 3 && "Thanks for the feedback! 📝"}
+                    {rating === 2 && "Thanks, I'll work on improvements! 💪"}
+                    {rating === 1 && "Thanks for letting me know! 🚀"}
+                  </p>
+                </div>
+              )}
+              
+              <div className="flex space-x-3 justify-center">
+                <button
+                  onClick={() => { setShowRating(false); setHoverRating(0); setRating(0);}}
+                  className="px-4 py-2 border-2 border-dashed border-gray-400 bg-white text-gray-600 font-mono hover:bg-gray-50 transition-all duration-300"
+                >
+                  Close
+                </button>
+                {rating > 0 && (
+                  <button
+                    onClick={() => {
+                      alert(`Thank you for rating ${rating} star${rating !== 1 ? 's' : ''}! Your feedback helps me improve. 🎯`);
+                      setShowRating(false);
+                      setRating(0);
+                      setHoverRating(0);
+                    }}
+                    className="px-4 py-2 border-2 border-dashed border-green-500 bg-green-50 text-green-700 font-mono hover:bg-green-100 transition-all duration-300"
+                  >
+                    Submit
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

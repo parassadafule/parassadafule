@@ -10,6 +10,9 @@
   <a href="https://www.linkedin.com/in/parassadafule">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-parassadafule-0A66C2?logo=linkedin&logoColor=white">
   </a>
+  <a href="https://parassadafule.netlify.app/">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Website-4CAF50?logo=netlify&logoColor=white">
+  </a>
 </p>
 
 ---
@@ -29,20 +32,20 @@
 ## Skills & tools
 
 - Languages: Java, C, JavaScript, Python
-- Backend: Node.js, Express.js
+- Backend: Node.js, Express.js, Flask
 - Frontend: HTML, CSS, React.js, Bootstrap, Tailwind CSS
 - Databases: SQL, MongoDB
 
 ---
 
-<!-- ## Certifications
+## Certifications
 
 - NPTEL Certificate (CS43): https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs43/Course/NPTEL24CS43S96720000230621568.pdf
 - NPTEL Certificate (CS75): https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs75/Course/NPTEL24CS75S24690056302714989.pdf
-- NPTEL Certificate (CS50): https://internalapp.nptel.ac.in/NOC/NOC25/SEM1/Ecertificates/106/noc25-cs50/Course/NPTEL25CS50S34100011601336430.pdf
+- NPTEL Certificate (CS50): https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs50/Course/NPTEL25CS50S34100011601336430.pdf
 - Udemy Certificate: https://udemy-certificate.s3.amazonaws.com/pdf/UC-2138cde1-6c05-46f1-89d4-2bcee7f8978a.pdf
 
--->
+
 
 ## Stats
 

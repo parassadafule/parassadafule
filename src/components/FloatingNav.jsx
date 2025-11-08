@@ -67,7 +67,7 @@ const FloatingNav = () => {
                         <React.Fragment key={section.id}>
                             <button
                                 onClick={() => scrollToSection(section.id)}
-                                className={`relative flex-shrink-0 w-12 h-12 md:w-full md:h-auto p-2 md:p-2 rounded-full md:rounded-lg font-mono text-sm transition-all duration-100 transform hover:scale-110 active:scale-95 ${activeSection === section.id
+                                className={`relative flex-shrink-0 w-12 h-12 md:w-full md:h-auto p-2 md:p-2 rounded-full md:rounded-lg font-mono text-sm transition-all duration-100 transform hover:scale-110 active:scale-95 group ${activeSection === section.id
                                         ? 'bg-gray-100 text-gray-800 border-2 border-dashed border-gray-500 shadow-md'
                                         : 'text-gray-600 hover:text-gray-800 hover:bg-gray-50'
                                     }`}>
@@ -76,6 +76,13 @@ const FloatingNav = () => {
                                         {section.icon}
                                     </span>
                                 </span>
+
+                                <div className="hidden md:block absolute right-full mr-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                                    <div className="bg-gray-800 text-white px-3 py-1 rounded-lg text-sm font-mono whitespace-nowrap shadow-lg">
+                                        {section.label}
+                                        <div className="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 border-l-4 border-l-gray-800 border-y-4 border-y-transparent"></div>
+                                    </div>
+                                </div>
                             </button>
 
                             {index < sections.length - 1 && (

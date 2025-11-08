@@ -41,7 +41,7 @@ const InternshipsSection = () => {
             'Collaborating with teams to implement new features, optimize performance, and enhance overall website functionality.',
             'Managing website hosting and deployment to guarantee consistent accessibility, speed, and reliability for users.'
           ],
-          technologies: ['React.js', 'Node.js', 'JavaScript', 'HTML', 'CSS', 'Git', 'Web Development']
+          technologies: ['React.js', 'Node.js', 'JavaScript', 'HTML', 'CSS', 'TailwindCSS', 'GitHub', 'Web Development', 'Deployment', 'Web Hosting']
         }
       ]
     }
