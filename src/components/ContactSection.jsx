@@ -94,6 +94,12 @@ const ContactSection = () => {
       sketch: 'network'
     },
     {
+      name: 'LeetCode',
+      url: 'https://leetcode.com/parassadafule21',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-original.svg',
+      sketch: 'code'
+    },
+    {
       name: 'X (Twitter)',
       url: 'https://x.com/ParasSadafule',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg',
@@ -279,7 +285,7 @@ const ContactSection = () => {
                       </div>
                       <div>
                         <div className="font-semibold text-gray-700">Email</div>
-                        <div className="text-gray-600">parassadafule21@gmail.com</div>
+                        <a className="text-gray-600" href="mailto:parassadafule21@gmail.com" target="_blank">parassadafule21@gmail.com</a>
                       </div>
                     </div>
                     
@@ -395,7 +401,7 @@ const ContactSection = () => {
         </div>
       </footer>
 
-      <div className="relative bottom-3 right-5 text-right text-sm underline cursor-pointer font-mono text-gray-400 opacity-75 hover:opacity-100 transition-opacity duration-300 z-40"
+      <div className="relative bottom-2 right-5 text-right text-sm cursor-pointer font-mono text-gray-700 opacity-75 hover:opacity-100 transition-opacity duration-300 z-40"
            onClick={() => setShowRating(true)}>
         I'm Feeling Lucky!
       </div>

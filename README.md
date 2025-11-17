@@ -4,13 +4,13 @@
 </p>
 
 <p align="center">
-  <a href="mailto:parassadafule21@gmail.com">
+  <a href="mailto:parassadafule21@gmail.com" target="_blank">
     <img alt="Email" src="https://img.shields.io/badge/Email-parassadafule21%40gmail.com-EA4335?logo=gmail&logoColor=white">
   </a>
-  <a href="https://www.linkedin.com/in/parassadafule">
+  <a href="https://www.linkedin.com/in/parassadafule" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-parassadafule-0A66C2?logo=linkedin&logoColor=white">
   </a>
-  <a href="https://parassadafule.netlify.app/">
+  <a href="https://parassadafule.netlify.app/" target="_blank">
     <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Website-4CAF50?logo=netlify&logoColor=white">
   </a>
 </p>

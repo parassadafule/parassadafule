@@ -68,7 +68,7 @@ const ProjectsSection = () => {
       title: 'GradLink - Alumni Management Platform',
       description: 'A comprehensive web-based alumni management platform that connects graduates, fosters professional networking, and provides mentorship opportunities using Java EE technologies.',
       icon: '🎓',
-      technologies: ['Java EE', 'MySQL', 'JSP', 'Servlets', 'JDBC', 'Tomcat'],
+      technologies: ['Java EE', 'MySQL', 'JSP', 'CSS', 'Servlets', 'JDBC', 'Tomcat'],
       features: [
         'Dual user system with role-based access control for Alumni and Students',
         'Advanced mentorship system with program posting and request management',
@@ -90,7 +90,7 @@ const ProjectsSection = () => {
       title: 'Heart Attack Predictor',
       description: 'Machine learning model that predicts heart attack risk using patient medical data and lifestyle factors.',
       icon: '💓',
-      technologies: ['Python', 'TensorFlow', 'Flask', 'React', 'PostgreSQL'],
+      technologies: ['HTML','CSS','JavaScript', 'Python', 'TensorFlow', 'Flask', 'Pandas', 'NumPy', 'Scikit-learn'],
       features: [
         '92% accuracy prediction model',
         'Real-time risk assessment',
