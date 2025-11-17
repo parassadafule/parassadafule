@@ -36,9 +36,9 @@
 
 ## Certifications
 
-- NPTEL Certificate (CS43): https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs43/Course/NPTEL24CS43S96720000230621568.pdf
-- NPTEL Certificate (CS75): https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs75/Course/NPTEL24CS75S24690056302714989.pdf
-- NPTEL Certificate (CS50): https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs50/Course/NPTEL25CS50S34100011601336430.pdf
+- Programming in Java : https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs43/Course/NPTEL24CS43S96720000230621568.pdf
+- Data Base Management System : https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs75/Course/NPTEL24CS75S24690056302714989.pdf
+- Machine Learning, ML : https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs50/Course/NPTEL25CS50S34100011601336430.pdf
 
 ---
 
