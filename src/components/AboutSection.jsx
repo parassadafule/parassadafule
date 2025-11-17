@@ -130,7 +130,7 @@ const AboutSection = () => {
                   </div>
                   
                   <div className="mt-3 border-l-4 border-orange-500 pl-2">
-                    <span className="text-sm font-mono text-gray-500">*GATE 2024 Qualified</span>
+                    <span className="text-sm font-mono text-gray-500">*GATE 2025 Qualified</span>
                   </div>
                 </div>
               </div>
