@@ -35,11 +35,11 @@ const InternshipsSection = () => {
         {
           title: 'Software Developer Intern',
           employmentType: 'Internship',
-          period: 'Sep/2024 — Present',
+          period: 'Sep/2024 — Feb/2025',
           responsibilities: [
-            'Designing, developing, and maintaining the company website using React.js and Node.js, ensuring a smooth and engaging user experience.',
-            'Collaborating with teams to implement new features, optimize performance, and enhance overall website functionality.',
-            'Managing website hosting and deployment to guarantee consistent accessibility, speed, and reliability for users.'
+            'Designed, developed, and maintained the company website using React.js and Node.js, ensuring a smooth, responsive, and engaging user experience.',
+            'Collaborated with teams to implement new features, optimize performance, and enhance overall website functionality.',
+            'Managed website hosting and deployment to guarantee consistent accessibility, speed, and reliability for users.'
           ],
           technologies: ['React.js', 'Node.js', 'JavaScript', 'HTML', 'CSS', 'TailwindCSS', 'GitHub', 'Web Development', 'Deployment', 'Web Hosting']
         }
