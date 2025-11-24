@@ -70,7 +70,7 @@ const InternshipsSection = () => {
             </h2>
             {/* Hand-drawn underline */}
             <div className="flex justify-center">
-              <svg width="200" height="20" className={`transition-all duration-2000 delay-500 ${
+              <svg width="200" height="20" className={`transition-all duration-1000 delay-500 ${
                 isVisible ? 'opacity-100' : 'opacity-0'
               }`}>
                 <path
@@ -91,7 +91,7 @@ const InternshipsSection = () => {
             {experiences.map((experience, expIndex) => (
               <div
                 key={expIndex}
-                className={`transition-all duration-1000 delay-500 ${
+                className={`transition-all duration-1000 ${
                   drawnElements.includes('internship')
                     ? 'opacity-100 translate-y-0'
                     : 'opacity-0 translate-y-8'

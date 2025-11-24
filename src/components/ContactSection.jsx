@@ -136,7 +136,7 @@ const ContactSection = () => {
             </h2>
             
             
-            <div className={`transition-all duration-2000 delay-500 ${
+            <div className={`transition-all duration-1000 delay-500 ${
               drawnElements.includes('envelope') ? 'opacity-100' : 'opacity-0'
             }`}>
               <svg width="200" height="100" className="mx-auto mb-6">
@@ -265,7 +265,7 @@ const ContactSection = () => {
 
             <div className="space-y-8">
               {/* Contact Info */}
-              <div className={`transition-all duration-1000 delay-1200 ${
+              <div className={`transition-all duration-1000 delay-200 ${
                 drawnElements.includes('contact') 
                   ? 'opacity-100 translate-y-0' 
                   : 'opacity-0 translate-y-8'
@@ -316,7 +316,7 @@ const ContactSection = () => {
               </div>
 
               {/* Social Links */}
-              <div className={`transition-all duration-1000 delay-1400 ${
+              <div className={`transition-all duration-1000 delay-400 ${
                 drawnElements.includes('social') 
                   ? 'opacity-100 translate-y-0' 
                   : 'opacity-0 translate-y-8'
@@ -374,7 +374,7 @@ const ContactSection = () => {
       </div>
 
       {/* Footer */}
-      <footer className={`mt-16 sm:mt-20 py-6 sm:py-10 border-t-2 border-dashed border-gray-300 transition-all duration-1000 delay-1600 ${
+      <footer className={`mt-16 sm:mt-20 py-6 sm:py-10 border-t-2 border-dashed border-gray-300 transition-all duration-1000 delay-600 ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-8'

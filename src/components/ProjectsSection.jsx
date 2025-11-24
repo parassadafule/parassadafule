@@ -302,7 +302,7 @@ const ProjectsSection = () => {
               Projects
             </h2>
 
-            <div className={`flex justify-center transition-all duration-1500 delay-300 ${
+            <div className={`flex justify-center transition-all duration-1000 delay-300 ${
               isVisible ? 'opacity-100' : 'opacity-0'
             }`}>
               <svg width="240" height="40" className="sm:w-220">

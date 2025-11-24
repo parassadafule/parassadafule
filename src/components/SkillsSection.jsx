@@ -263,7 +263,7 @@ const SkillsSection = () => {
             </p> */}
             
             {/* Bracket */}
-            <div className={`mt-6 flex justify-center transition-all duration-2000 delay-700 ${
+            <div className={`mt-6 flex justify-center transition-all duration-1000 delay-700 ${
               isVisible ? 'opacity-100' : 'opacity-0'
             }`}>
               <svg width="300" height="30">

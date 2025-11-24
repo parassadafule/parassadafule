@@ -21,7 +21,7 @@ const LandingPage = () => {
       <div className="text-center z-10 px-4 sm:px-6">
 
         <div className="mb-6 sm:mb-8 flex justify-center">
-          <div className={`w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-dashed border-gray-600 bg-white transition-all duration-2000 ${
+          <div className={`w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-dashed border-gray-600 bg-white transition-all duration-1000 ${
             isVisible ? 'animate-pulse' : ''
           }`}>
             <div className="w-full h-full rounded-full flex items-center justify-center relative">
@@ -29,7 +29,7 @@ const LandingPage = () => {
               <div className={`absolute inset-2 border-2 border-gray-400 rounded-full transition-all duration-3000 ${
                 isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-50'
               }`} />
-              <div className={`absolute inset-4 border border-gray-500 rounded-full transition-all duration-2000 delay-500 ${
+              <div className={`absolute inset-4 border border-gray-500 rounded-full transition-all duration-1000 delay-500 ${
                 isVisible ? 'opacity-100' : 'opacity-0'
               }`} />
               <div className="text-gray-600 text-xs font-mono">✏️</div>
@@ -37,27 +37,27 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <h1 className={`text-3xl sm:text-4xl md:text-6xl font-mono font-bold mb-4 text-gray-700 transition-all duration-2000 ${
+        <h1 className={`text-3xl sm:text-4xl md:text-6xl font-mono font-bold mb-4 text-gray-700 transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           Paras Sadafule
         </h1>
 
         <div className="flex justify-center mb-4 sm:mb-6">
-          <div className={`h-1 bg-gray-600 transition-all duration-1500 delay-1000 ${
+          <div className={`h-1 bg-gray-600 transition-all duration-1000 delay-1000 ${
             isVisible ? 'w-48 sm:w-60' : 'w-0'
           }`} style={{
             background: 'repeating-linear-gradient(90deg, #6b7280, #6b7280 10px, transparent 10px, transparent 15px)'
           }} />
         </div>
 
-        <h2 className={`text-lg sm:text-xl md:text-2xl mb-4 sm:mb-6 text-gray-600 font-mono transition-all duration-2000 delay-700 ${
+        <h2 className={`text-lg sm:text-xl md:text-2xl mb-4 sm:mb-6 text-gray-600 font-mono transition-all duration-1000 delay-700 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           Full Stack Developer
         </h2>
 
-        <div className={`max-w-2xl sm:max-w-3xl mx-auto mb-6 sm:mb-8 transition-all duration-2000 delay-1000 ${
+        <div className={`max-w-2xl sm:max-w-3xl mx-auto mb-6 sm:mb-8 transition-all duration-1000 delay-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <div className="border-2 border-dashed border-gray-500 p-4 sm:p-6 bg-white/70 transform -rotate-1">
@@ -67,7 +67,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className={`transition-all duration-2000 delay-1500 ${
+        <div className={`transition-all duration-1000 delay-1500 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
           <button 

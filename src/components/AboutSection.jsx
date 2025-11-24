@@ -60,7 +60,7 @@ const AboutSection = () => {
               About Me
             </h2>
             <div className="flex justify-center">
-              <svg width="200" height="20" className={`transition-all duration-2000 delay-500 ${
+              <svg width="200" height="20" className={`transition-all duration-1000 delay-500 ${
                 isVisible ? 'opacity-100' : 'opacity-0'
               }`}>
                 <path
