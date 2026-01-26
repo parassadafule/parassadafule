@@ -383,7 +383,7 @@ const ContactSection = () => {
           <div className="text-center">
             <div className="border-2 border-dashed border-gray-400 bg-white p-3 sm:p-4 inline-block transform -rotate-1">
               <p className="text-sm font-mono text-gray-600">
-                © 2025 Paras Sadafule.
+                © 2026 Paras Sadafule.
               </p>
               
               <div className="mt-3 flex justify-center">

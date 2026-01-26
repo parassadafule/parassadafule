@@ -46,7 +46,7 @@ const ProjectsSection = () => {
       title: 'QMail - Quantum-Secure Email Client',
       description: 'A secure email client application that integrates quantum key distribution (QKD) for end-to-end encryption of emails and attachments. Features modern web interface with advanced security protocols.',
       icon: '�',
-      technologies: ['React 18', 'Node.js', 'Python Flask', 'MongoDB', 'JWT', 'SMTP', 'Tailwind CSS'],
+      technologies: ['React', 'Node.js', 'Python Flask', 'MongoDB', 'JWT', 'SMTP', 'Tailwind CSS'],
       features: [
         'Quantum Key Distribution (QKD) integration for secure key generation',
         'XOR-based encryption for email content and attachments',
@@ -65,6 +65,30 @@ const ProjectsSection = () => {
     },
     {
       id: 2,
+      title: 'Quiz Maker - Interactive Quiz Maker Application',
+      description: 'Full-stack web application for creating, managing, and taking quizzes with role-based access and real-time scoring using React and Django REST Framework.',
+      icon: '📝',
+      technologies: ['React', 'TypeScript', 'Django REST Framework', 'Python', 'PostgreSQL', 'JWT', 'Tailwind CSS'],
+      features: [
+        'JWT-based authentication with secure token handling',
+        'Role-based access control for Admin and Student users',
+        'Create, edit, and delete quizzes with multiple question types',
+        'Support for MCQ, True/False, and short answer questions',
+        'Real-time score calculation and result evaluation',
+        'Quiz attempt tracking with stored history per user',
+        'Admin dashboard to monitor quizzes, participants, and scores',
+        'PostgreSQL-backed persistent data storage'
+      ],
+      // status: 'Live',
+      sketch: {
+        mainDoodle: '📝📊',
+        arrows: ['↔', '↗', '↖'],
+        notes: ['JWT', 'quiz', 'score']
+      },
+      link: 'https://github.com/parassadafule/QuizMaker'
+    },
+    {
+      id: 3,
       title: 'GradLink - Alumni Management Platform',
       description: 'A comprehensive web-based alumni management platform that connects graduates, fosters professional networking, and provides mentorship opportunities using Java EE technologies.',
       icon: '🎓',
@@ -84,25 +108,6 @@ const ProjectsSection = () => {
         notes: ['network', 'mentors', 'events']
       },
       link: 'https://github.com/parassadafule/GradLink'
-    },
-    {
-      id: 3,
-      title: 'Heart Attack Predictor',
-      description: 'Machine learning model that predicts heart attack risk using patient medical data and lifestyle factors.',
-      icon: '💓',
-      technologies: ['HTML','CSS','JavaScript', 'Python', 'TensorFlow', 'Flask', 'Pandas', 'NumPy', 'Scikit-learn'],
-      features: [
-        '92% accuracy prediction model',
-        'Real-time risk assessment',
-        'Interactive data visualization',
-        'Medical professional dashboard'
-      ],
-      // status: 'Beta',
-      sketch: {
-        mainDoodle: '❤️📊',
-        arrows: ['↗', '→', '↙'],
-        notes: ['ML', '92%', 'health']
-      }
     }
   ];
   
@@ -173,7 +178,7 @@ const ProjectsSection = () => {
           </div>
 
           <div className="relative mb-2">
-            <p className="leading-relaxed text-gray-700 font-mono text-sm sm:text-base pr-8">
+            <p className="leading-relaxed text-gray-700 font-mono text-sm sm:text-base">
               {project.description}
             </p>
             
