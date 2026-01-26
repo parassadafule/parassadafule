@@ -43,6 +43,20 @@ const SkillsSection = () => {
       doodles: ['function', '=>', 'const'],
       link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
     },
+    {
+      name: 'Python',
+      level: 80,
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+      doodles: ['def', 'import', 'lambda'],
+      link: 'https://www.python.org/'
+    },
+    {
+      name: 'SQL',
+      level: 80,
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+      doodles: ['SELECT', 'FROM', 'WHERE'],
+      link: 'https://www.w3schools.com/sql/'
+    },
     // FRAMEWORKS/TOOLS
     {
       name: 'React.js',
@@ -61,7 +75,7 @@ const SkillsSection = () => {
     {
       name: 'TailwindCSS',
       level: 90,
-      icon: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg',
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain-wordmark.svg',
       doodles: ['className', 'flex', 'bg-blue'],
       link: 'https://tailwindcss.com/'
     },
@@ -71,13 +85,6 @@ const SkillsSection = () => {
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
       doodles: ['Servlet', 'JSP', 'J2EE'],
       link: 'https://www.oracle.com/java/technologies/java-ee-glance.html'
-    },
-    {
-      name: 'SQL',
-      level: 80,
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
-      doodles: ['SELECT', 'FROM', 'WHERE'],
-      link: 'https://www.w3schools.com/sql/'
     },
     {
       name: 'JDBC',
@@ -92,7 +99,13 @@ const SkillsSection = () => {
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
       doodles: ['CREATE', 'INSERT', 'JOIN'],
       link: 'https://www.mysql.com/'
-      
+    },
+    {
+      name: 'PostgreSQL',
+      level: 80,
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+      doodles: ['SELECT', 'FROM', 'WHERE'],
+      link: 'https://www.postgresql.org/'
     },
     {
       name: 'MongoDB',
@@ -100,6 +113,13 @@ const SkillsSection = () => {
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
       doodles: ['db', 'find()', 'NoSQL'],
       link: 'https://www.mongodb.com/'
+    },
+    {
+      name: 'Django',
+      level: 75,
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg',
+      doodles: ['models', 'views', 'templates'],
+      link: 'https://www.djangoproject.com/'
     },
     {
       name: 'Git',
