@@ -9,7 +9,6 @@ const AboutSection = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          // Animate lines being drawn
           const timer = setTimeout(() => {
             for (let i = 0; i < 5; i++) {
               setTimeout(() => {
@@ -39,20 +38,18 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="py-20 bg-white relative overflow-hidden">
-      {/* Notebook paper texture */}
       <div className="absolute inset-0">
         <div className="w-full h-full" style={{
-          backgroundImage: `repeating-linear-gradient(transparent, transparent 23px, #e5e7eb 23px, #e5e7eb 24px)`,
+          backgroundImage: `repeatinglinear-gradient(transparent, transparent 23px, #e5e7eb 23px, #e5e7eb 24px)`,
           backgroundSize: '100% 24px'
         }} />
-        {/* Margin line */}
         <div className="absolute left-20 top-0 bottom-0 w-px bg-red-300" />
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-1 sm:mb-16">
-            <h2 className={`text-2xl sm:text-3xl md:text-4xl font-mono font-bold mb-4 text-gray-700 transition-all duration-1000 ${
+            <h2 className={`text-2xl sm:text-3xl md:text-4xl font-mono font-bold mb-4 text-gray-700 transition-all  ${
               isVisible
                 ? 'opacity-100 translate-y-0'
                 : 'opacity-0 translate-y-8'
@@ -84,22 +81,6 @@ const AboutSection = () => {
             }`}>
               <div className="border-2 border-dashed border-gray-400 bg-gray-50/50 p-6 sm:p-8 transform rotate-1">
                 <div className="border border-gray-300 p-4 sm:p-6 bg-white transform -rotate-1">
-                  {/* <h3 className="text-lg sm:text-xl font-mono font-semibold mb-4 text-gray-700">
-                    My Journey
-                  </h3> */}
-                  
-                  {/* <div className="mb-4 space-y-1">
-                    {[...Array(3)].map((_, i) => (
-                      <div 
-                        key={i}
-                        className={`h-px bg-gray-300 transition-all duration-1000 ${
-                          linesDrawn.includes(i) ? 'w-full' : 'w-0'
-                        }`}
-                        style={{ transitionDelay: `${i * 200}ms` }}
-                      />
-                    ))}
-                  </div> */}
-                  
                   <div className="leading-relaxed text-gray-600 font-mono text-md space-y-4">
                     {textContent.objective.split('\n\n').map((paragraph, index) => (
                       <p key={index} className="mb-4 last:mb-0">
@@ -107,7 +88,6 @@ const AboutSection = () => {
                       </p>
                     ))}
                   </div>
-  
                 </div>
               </div>
             </div>
@@ -121,7 +101,7 @@ const AboutSection = () => {
                 <div className="border-2 border-dashed border-gray-400 bg-white p-6 transform">
                   <div className="border-b border-gray-300 pb-2 m">
                     <h4 className="text-lg font-mono font-semibold text-gray-700 flex items-center">
-                      📚 Education
+                      Education
                       <div className="ml-2 w-8 h-px bg-gray-400" />
                     </h4>
                   </div>
@@ -130,7 +110,7 @@ const AboutSection = () => {
                   </div>
                   
                   <div className="mt-3 border-l-4 border-orange-500 pl-2">
-                    <span className="text-sm font-mono text-gray-500">*GATE 2025 Qualified</span>
+                    <span className="text-sm font-mono text-gray-500">*GATE 2026 Qualified</span>
                   </div>
                 </div>
               </div>
@@ -143,7 +123,7 @@ const AboutSection = () => {
                 <div className="border-2 border-dashed border-gray-400 bg-white p-4 sm:p-6 ">
                   <div className="border-b border-gray-300 pb-4 mb-4">
                     <h4 className="font-mono font-semibold text-gray-700 flex items-center text-lg">
-                      📋 Resume
+                      Resume
                       <div className="ml-2 w-8 h-px bg-gray-400" />
                     </h4>
                   </div>
@@ -163,7 +143,7 @@ const AboutSection = () => {
                     </a>
                     
                     <p className="text-sm text-gray-500 font-mono mt-4">
-                      PDF • Updated November 2025
+                      PDF
                     </p>
                   </div>
                   
