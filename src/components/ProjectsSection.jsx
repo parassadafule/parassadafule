@@ -288,15 +288,6 @@ const ProjectsSection = () => {
                 />
               </svg>
             </div>
-
-            <p
-              className={`text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-mono transition-all duration-1000 delay-500 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
-            >
-              Projects selected from my updated resume, presented with a stronger
-              focus on impact, architecture, and engineering fundamentals.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-8xl">

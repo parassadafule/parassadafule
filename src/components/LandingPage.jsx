@@ -80,36 +80,13 @@ const LandingPage = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <div className="border-2 border-dashed border-gray-500 p-4 sm:p-6 bg-white/70 transform -rotate-1">
+          <div className="border-2 border-dashed border-gray-500 p-4 sm:p-6 bg-white/70 transform ">
             <p className="text-base sm:text-lg md:text-xl text-gray-600 font-mono leading-relaxed">
               "Computer Science undergraduate building secure, scalable, and
               user-focused web applications with strong foundations in Java,
               DSA, and modern full-stack development."
             </p>
           </div>
-        </div>
-
-        <div
-          className={`flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 sm:mb-8 transition-all duration-1000 delay-1200 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
-          <a
-            href="/Paras_Sadafule_Resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="border-2 border-dashed border-gray-600 text-gray-600 font-mono px-5 py-3 bg-white hover:bg-gray-50 transition-all duration-300 transform hover:scale-105"
-          >
-            View Resume
-          </a>
-          <button
-            onClick={() =>
-              document.getElementById("projects").scrollIntoView({ behavior: "smooth" })
-            }
-            className="border-2 border-dashed border-gray-600 text-gray-600 font-mono px-5 py-3 bg-white hover:bg-gray-50 transition-all duration-300 transform hover:scale-105"
-          >
-            Featured Projects
-          </button>
         </div>
 
         <div

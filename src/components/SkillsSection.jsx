@@ -117,15 +117,6 @@ const SkillsSection = () => {
               Technical Skills
             </h2>
 
-            <p
-              className={`text-sm sm:text-base text-gray-600 max-w-2xl mx-auto font-mono transition-all duration-1000 delay-500 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
-            >
-              A resume-aligned mix of programming, web development, databases, and
-              computer science fundamentals.
-            </p>
-
             <div
               className={`mt-6 flex justify-center transition-all duration-1000 delay-700 ${
                 isVisible ? "opacity-100" : "opacity-0"
