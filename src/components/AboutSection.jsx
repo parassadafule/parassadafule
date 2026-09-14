@@ -30,7 +30,7 @@ const AboutSection = () => {
 
   const textContent = {
     objective: "Hello, World! I’m Paras Sadafule — a passionate Full Stack Developer who loves turning ideas into functional, scalable, and user-friendly digital solutions.\n\nAs a Computer Science and Engineering student, I’ve built a strong foundation in React.js, Node.js, Java, and Python, blending creativity with clean engineering principles to bring projects to life. I thrive at the intersection of design and logic, crafting experiences that are both intuitive and technically sound.\n\nAs I explored different layers of development — from frontend design to backend architecture — I learned to approach problems with both creativity and structure. I enjoy crafting solutions that are not only functional but also intuitive and engaging.\n\nToday, I see full-stack development as the perfect balance between logic and creativity — where every line of code contributes to bringing ideas to life.",
-    education: "Bachelor of Technology\n • Computer Science And Engineering\n • Nagesh Karajagi Orchid College Of Engineering And Technology\n• 2022-2026\n• GPA: 8.0",
+    education: "Bachelor of Technology\n • Computer Science And Engineering\n • Nagesh Karajagi Orchid College Of Engineering And Technology\n• 2022-2026\n• GPA: 8.1",
     location: "Solapur, Maharashtra, India",
     email: "parassadafule21@gmail.com",
     phone: "+91 9404337618"
@@ -110,7 +110,7 @@ const AboutSection = () => {
                   </div>
                   
                   <div className="mt-3 border-l-4 border-orange-500 pl-2">
-                    <span className="text-sm font-mono text-gray-500">*GATE 2026 Qualified</span>
+                    <span className="text-sm font-mono text-gray-500">GATE 2025 & 2026 Qualified</span>
                   </div>
                 </div>
               </div>
